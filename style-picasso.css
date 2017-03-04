@@ -1,0 +1,173 @@
+body { color : #1f1f66;
+	background-color: #ffffff;
+		font-family: sans-serif, serif; }
+		
+h2 {font-family: sans-serif;}
+h3 {font-family: sans-serif;}
+h4 {font-family: sans-serif; color: #000000;}
+/*a {text-decoration : none;} */
+a:link { text-decoration: underline;
+		 color: #1f1f66;}
+a:active { text-decoration: underline; color: #1f1f66;}
+ a:visited { text-decoration: underline; color: #1f1f66;}
+ a:hover { text-decoration: underline; color: #red;}
+
+.content { background-color: /* #5f8961; */ /*#ffffff; white #ffffcc #ddd; #eaecf7 *//* #e2dda1;*/  #c3e0c0;
+			layer-background-color: #eaecf7;
+			border: 0px solid #ffffff;
+			font-size: 13px;
+			/*font-family: fantasy;serif;cursive;monospace; }
+.title { background-color: /* #5f8961; */ #ffffff; /*white */ ;color: #000;
+			layer-background-color: #eaecf7;
+			border: 0px solid #ffffff;
+			font-size: 13px;}
+	
+.header1 { background-color:  #748bd1;
+			layer-background-color: #748bd1;
+			border: 0px solid #ffffff;
+			font-weight:bold;
+		/*	vertical-align : center;*/}
+.header { background-color: /*#844037; brown */  #5f8961;/*green */  /* #eaecf7;lightblue */
+			layer-background-color: #748bd1;
+			border: 0px solid #ffffff;
+			font-size: 13px;
+			font-weight:bold;
+		/*	vertical-align : center;*/}
+
+.bord {border: 1px solid #748bd1;}
+
+select { font-size:8px}
+/*option {font-size:10px}*/
+/* this if for the side menubar */
+#menuBar {position: absolute; 
+	          left: 0px; 
+	          top: 110px; 
+                  width: 102px; 
+	          height: 350px;
+			  /*text-align: center;*/
+	          border: 1px solid #748bd1; 
+	          background-color: #748bd1; 
+	          layer-background-color: #748bd1;
+	         }
+
+.mainMenu{
+	position: absolute;
+	margin-left: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	left :0;
+top :30px;
+	line-height : 50px;
+	font-family: serif;
+	}
+
+#menuBar a:link { text-decoration: none;
+	cursor: default;
+	color : white;}
+#menuBar a:active { text-decoration: none;
+	cursor: default;
+	color : green;}
+#menuBar a:visited { text-decoration: none;
+	cursor: default;
+	color : white;}
+/*#menuBar a:hover { text-decoration: underline;
+		color : #efac28;}*/
+
+/* this is for the ody table */
+
+#tableCont {	position: absolute; 
+	          	left: 200px;
+	          	top: 110px; 
+				}
+
+/* this is for the table at the top */
+#tableHeader { position: absolute;
+		left:0;
+		top:0;
+		}
+
+#tableHeader a:link { text-decoration: none; color: white;}
+#tableHeader a:active { text-decoration: none; color: white;}
+#tableHeader a:visited { text-decoration: none; color: white;}
+#tableHeader a:hover { text-decoration: none; color: white;}
+
+.header a:link { text-decoration: underline;
+		 color: white;}
+.header a:active { text-decoration: underline; color: white;}
+.header a:visited { text-decoration: underline; color: yellow;}
+.header a:hover { text-decoration: underline; color: #efac28;}
+
+.content a:link { text-decoration: underline;
+		 color: #1f1f66;}
+.content a:active { text-decoration: underline; color: #1f1f66;}
+.content a:visited { text-decoration: underline; color: #1f1f66;}
+.content a:hover { text-decoration: underline; color: #red;}
+#news #csatext a:link { text-decoration: none; color: #748bd1; font-weight: bold;}
+#news #csatext a:active { text-decoration: none; color: green; font-weight: bold;}
+#news #csatext a:visited { text-decoration: none; color: #4f3f7d; font-weight: bold;}
+#news #csatext a:hover { text-decoration: none; color: #efac28; font-weight: bold;}
+
+
+.subMenu a:link { text-decoration: none;
+	color : #748bd1;}
+.subMenu a:active { text-decoration: none;
+	color : green;}
+.subMenu a:visited { text-decoration: none;
+	color : #4f3f7d;}
+.subMenu a:hover { text-decoration: underline;
+		color : #efac28;}
+		
+	
+.subMenu {
+	position: absolute;
+	font-weight: bold;
+	font-size: 11px;
+	width:100px;
+	left:110px;
+	visibility: hidden;
+	color: red;
+	font-family: sans-serif;
+
+	}
+
+.contactInfo {
+	font-size: 10px;
+	color: #8f6fcd;
+	font-family: sans-serif;
+	}
+#ms1 {
+	top: 150px;
+	}
+#ms2 {
+	top: 200px;
+	}
+#ms3 {
+	top: 250px;
+	}
+#ms4 {
+	top: 300px;
+	}
+#ms5 {
+	top: 350px;
+	}
+.level1 { position : absolute;
+	left : 0;
+}
+
+#csatext {
+text-indent: 2em;
+	margin-right: 10px;
+	font-size: 12px;
+	color : #1f1f66;
+	text-align: justify;
+	font-family: sans-serif;
+}
+#news {
+	color : #1f1f66;
+	font-size: 12px;
+	font-family: sans-serif;
+	}
+
+.justify {
+	text-align: justify;
+	}
