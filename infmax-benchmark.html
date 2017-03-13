@@ -52,7 +52,7 @@
    Influence maximization (IM) on social networks is one of the most active areas of research in computer science. While various IM techniques proposed over the last decade have definitely enriched the field, unfortunately, experimental reports on existing techniques fall short in validity and integrity since many comparisons are not based on a common platform or merely discussed in theory. In this paper, we perform an in-depth benchmarking study of IM techniques on social networks. Specifically, we design a benchmarking platform, which enables us to evaluate and compare the existing techniques systematically and thoroughly under identical experimental conditions. Our benchmarking results analyze and diagnose the inherent deficiencies of the existing approaches and surface the open challenges in IM even after a decade of research. More fundamentally, we unearth and debunk a series of myths and establish that there is no single state-of-the-art technique in IM. At best, a technique is the state of the art in only one aspect.
       </td>
     </tr>
-    
+    <!--
     <tr>
         <td> <br>
             <a name="motivate"> </a><font size="3" color="brown"><b>Source Code [Work in Progress]</b></font>
@@ -64,7 +64,22 @@
             The source code for 12 state-of-the-art methods in the field of Influence Maximization, which were benchmarked in this study is available on github under the <a href="https://github.com/sigdata/im_benchmarking"> im_benchmarking </a> repository.
         </td>
     </tr>
-    
+    -->
+	<tr>
+      <td> <br>
+      <a name="pub"> </a><font size="3" color="brown"><b>Related Publications (*Equal Contribution)</b></font>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td class="content"> <a href="https://www.dropbox.com/s/uzi53ybpbfbdo9s/SIGMOD17_im_benchmarking.pdf?dl=0"></a>
+            <a href="https://www.dropbox.com/s/uzi53ybpbfbdo9s/SIGMOD17_im_benchmarking.pdf?dl=0">Debunking the Myths of Influence Maximization: An in-depth Benchmarking Study</a>.<br>
+			Akhil Arora*, Sainyam Galhotra* and Sayan Ranu<br>
+			<b>Proc. of the 2017 ACM SIGMOD International Conference on Management of Data.</b> <br>
+			<b>Source Code [Work in Progress]</b>: Please see the <a href="https://github.com/sigdata/im_benchmarking"> im_benchmarking </a> repository on github.
+      </td>
+    </tr> 
+
     
     <tr>
       <td> <br>
@@ -93,9 +108,10 @@
         <font color="brown" size="3"><b>Techniques benchmarked</b></font>
         <br> </td> </tr>
     <tr> <td class="content">
-        The twelve representative techniques spanned by this study are : <a href="http://dl.acm.org/citation.cfm?id=1281239">CELF</a>, <a href="http://dl.acm.org/citation.cfm?id=1963217">CELF++</a>, <a href="http://dl.acm.org/citation.cfm?id=2593670">TIM</a>, <a href="http://dl.acm.org/citation.cfm?id=2723734">IMM</a>, <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8455">PMC</a>, <a href="http://dl.acm.org/citation.cfm?id=2505541"> StaticGreedy</a>, <a href="http://ieeexplore.ieee.org/document/5693962/">LDAG </a>, <a href="http://ieeexplore.ieee.org/document/6137225/">SIMPATH</a>, <a href="http://dl.acm.org/citation.cfm?id=2882929">EaSyIM</a>, <a href="http://ieeexplore.ieee.org/document/6413832">IRIE</a> and  <a href="http://dl.acm.org/citation.cfm?id=2609592">IMRank</a>.  <br>
-        All these techniques are benchamrked over the classical IM models : Independent Cascade (IC), Weighted Cascade (WC) and Linear Threshold (LT).<br><br>
+        The 11 representative techniques evaluated in this study are : <a href="http://dl.acm.org/citation.cfm?id=1281239">CELF</a>, <a href="http://dl.acm.org/citation.cfm?id=1963217">CELF++</a>, <a href="http://dl.acm.org/citation.cfm?id=2593670">TIM</a>, <a href="http://dl.acm.org/citation.cfm?id=2723734">IMM</a>, <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8455">PMC</a>, <a href="http://dl.acm.org/citation.cfm?id=2505541"> StaticGreedy</a>, <a href="http://ieeexplore.ieee.org/document/5693962/">LDAG </a>, <a href="http://ieeexplore.ieee.org/document/6137225/">SIMPATH</a>, <a href="http://dl.acm.org/citation.cfm?id=2882929">EaSyIM</a>, <a href="http://ieeexplore.ieee.org/document/6413832">IRIE</a> and  <a href="http://dl.acm.org/citation.cfm?id=2609592">IMRank</a>.  <br>
+        All these techniques were benchamrked over the classical models of information diffusion, namely -- Independent Cascade (IC), Weighted Cascade (WC) and Linear Threshold (LT).<br><br>
         <center><img src="images/evolution_im.png" alt="Evolution of techniques" style="width:800px;height:80px;"></center><br>
+		<b><u>Note:</u></b> We are in the process of including <a href="http://dl.acm.org/citation.cfm?id=2915207">Stop-and-Stare</a> into our benchmarking evaluation and are currently running experiments using the code provided by the authors.
     </td></tr>  
     
     
